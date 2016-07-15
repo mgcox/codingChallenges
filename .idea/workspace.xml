@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8927af2-e817-4daa-a2e3-c530e3811e87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructuresAndAlgo/Quick Sort.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swapCount.py" afterPath="$PROJECT_DIR$/swapCount.py" />
     </list>
     <ignored path="codingChallenges.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,6 +20,7 @@
     <SUITE FILE_PATH="coverage/codingChallenges$overlappingRectangles.coverage" NAME="overlappingRectangles Coverage Results" MODIFIED="1468354814925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/codingChallenges$numberToBinary.coverage" NAME="numberToBinary Coverage Results" MODIFIED="1468468866649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/codingChallenges$numbersToBinary.coverage" NAME="numbersToBinary Coverage Results" MODIFIED="1468335764029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/codingChallenges$Quick_Sort.coverage" NAME="Quick Sort Coverage Results" MODIFIED="1468558465400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataStructuresAndAlgo" />
     <SUITE FILE_PATH="coverage/codingChallenges$palindromeString.coverage" NAME="palindromeString Coverage Results" MODIFIED="1468354782454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/codingChallenges$swapCount.coverage" NAME="swapCount Coverage Results" MODIFIED="1468471256287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -62,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swapCount.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swapCount.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swapCount.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="181">
               <caret line="33" column="85" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quick Sort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgo/Quick Sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -104,6 +115,7 @@
         <option value="$PROJECT_DIR$/positionOfSetBit.py" />
         <option value="$PROJECT_DIR$/numberToBinary.py" />
         <option value="$PROJECT_DIR$/swapCount.py" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgo/Quick Sort.py" />
       </list>
     </option>
   </component>
@@ -161,6 +173,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codingChallenges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codingChallenges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataStructuresAndAlgo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -172,7 +198,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.swapCount">
+  <component name="RunManager" selected="Python.Quick Sort">
     <configuration default="false" name="numbersToBinary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,6 +267,24 @@
       <module name="codingChallenges" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swapCount.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Quick Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataStructuresAndAlgo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codingChallenges" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataStructuresAndAlgo/Quick Sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -471,19 +515,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.palindromeString" />
       <item index="1" class="java.lang.String" itemvalue="Python.numbersToBinary" />
       <item index="2" class="java.lang.String" itemvalue="Python.overlappingRectangles" />
       <item index="3" class="java.lang.String" itemvalue="Python.numberToBinary" />
       <item index="4" class="java.lang.String" itemvalue="Python.swapCount" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Quick Sort" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.swapCount" />
-        <item index="1" class="java.lang.String" itemvalue="Python.numberToBinary" />
-        <item index="2" class="java.lang.String" itemvalue="Python.overlappingRectangles" />
-        <item index="3" class="java.lang.String" itemvalue="Python.numbersToBinary" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Quick Sort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.swapCount" />
+        <item index="2" class="java.lang.String" itemvalue="Python.numberToBinary" />
+        <item index="3" class="java.lang.String" itemvalue="Python.overlappingRectangles" />
+        <item index="4" class="java.lang.String" itemvalue="Python.numbersToBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1468336556838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished swap count challenge">
+      <created>1468471520137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1468471520138</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -537,7 +590,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added a simple test&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a simple test&#10;" />
+    <MESSAGE value="Finished swap count challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished swap count challenge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -636,6 +690,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="33" column="85" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgo/Quick Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
         </state>
       </provider>
