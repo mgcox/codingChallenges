@@ -6,8 +6,6 @@ go after the pivot'''
 
 '''We will pick the last element for this practice'''
 
-
-
 #choose the last item in the array/subarray as the pivot and sort accordingly
 def partition(arr,lowIndex,highIndex):
 
@@ -15,20 +13,23 @@ def partition(arr,lowIndex,highIndex):
     pivot = arr[highIndex]
 
     #Smallest element or location of "wall"
-    wall = lowIndex - 1
+    wall = lowIndex
 
     #move all elements that are less than (or equal to) the pivot to the other side of "wall"
     for j in range(lowIndex,highIndex):
         if arr[j] <= pivot:
             # move wall over one
-            wall += 1
+
+            print("swapping %d and %d", wall , j)
             arr[wall],arr[j] = arr[j],arr[wall]
+            wall += 1
 
     #move pivot to its proper spot by swapping it with the wall index + 1
-    arr[wall+1], arr[highIndex] = arr[highIndex], arr[wall+1]
+    arr[wall], arr[highIndex] = arr[highIndex], arr[wall]
 
     #return the location to the right of the wall
-    return wall+1
+    print("returning %s", wall)
+    return wall
 
 
 def quickSort(arr,lowIndex,highIndex):

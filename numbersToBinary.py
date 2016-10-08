@@ -5,3 +5,5 @@ for num in range(0,t):
     for i in range(1,val+1):
         print (bin(i)[2:]),
     print '\n'
+
+
